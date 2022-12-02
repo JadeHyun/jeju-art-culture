@@ -44,9 +44,7 @@ export default function Home() {
 
 const Container = styled.section`
   text-align: center;
-  /* padding-top: 50px; */
   color: black;
-  font-family: "doldam";
   display: flex;
   flex-direction: column;
   height: 100vh;
