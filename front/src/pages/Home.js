@@ -1,5 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import life from "../assets/lifeService.svg";
+import medical from "../assets/Medical.svg";
+import culture from "../assets/culture.svg";
+import tourism from "../assets/tourism.svg";
 
 export default function Home() {
   return (
