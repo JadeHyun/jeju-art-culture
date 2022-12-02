@@ -6,6 +6,7 @@ import life from "../assets/생활서비스.png";
 import medical from "../assets/의료복지.png";
 import culture from "../assets/문화예술.png";
 import tourism from "../assets/관광.png";
+
 import logo from "../assets/logo.png";
 import "../font.css";
 
@@ -26,6 +27,7 @@ export default function Home() {
         </div>
         <Link to="/map" className="layout">
           <img src={culture} alt="culture icon" className="cultureImg" />
+
           <button className="btn">문화예술</button>
         </Link>
       </div>
@@ -84,11 +86,11 @@ const Container = styled.section`
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 50px;
+    font-size: 100px;
   }
 
   .logo {
-    width: 50px;
+    width: 110px;
   }
 
   a {
@@ -111,6 +113,7 @@ const Container = styled.section`
     width: 50%;
     /* border: 1px solid black; */
     align-items: center;
+    margin: 18px;
   }
 `;
 
