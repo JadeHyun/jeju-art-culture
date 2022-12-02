@@ -39,9 +39,12 @@ export default function Home() {
 
 const Container = styled.section`
   text-align: center;
-  padding-top: 50px;
+  /* padding-top: 50px; */
   color: black;
-  font: "doldam";
+  font-family: "doldam";
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
 
   img {
     width: 60%;
@@ -50,7 +53,9 @@ const Container = styled.section`
   }
 
   .header {
-    margin-bottom: 50px;
+    border: 1px solid black;
+    /* margin-bottom: 50px; */
+    flex-basis: 30%;
   }
 
   a {
