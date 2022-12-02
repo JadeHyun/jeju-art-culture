@@ -1,6 +1,5 @@
 /* global kakao */
 import React, { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
 import styled from "styled-components";
 import Modal from "../components/Modal";
 import mapChamp from "../assets/map캐릭터.png";

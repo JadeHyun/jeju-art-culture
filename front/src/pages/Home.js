@@ -111,25 +111,7 @@ const Container = styled.section`
     display: flex;
     flex-direction: column;
     width: 50%;
-    /* border: 1px solid black; */
     align-items: center;
     margin: 18px;
-  }
-`;
-
-let Button = styled.button`
-  font-size: 20px;
-  font-weight: 800;
-  border-radius: 24px;
-  width: 300px;
-  height: 70px;
-  border: none;
-  border-radius: 20px;
-  margin-bottom: 15px;
-  background: white;
-  color: var(--darkgray);
-  &:hover {
-    cursor: pointer;
-    background: var(--orange);
   }
 `;

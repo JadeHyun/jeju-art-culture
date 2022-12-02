@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import base from "../img/까마귀_축하";
 
 export default function CardSection({ name, state }) {
   console.log(name);
