@@ -1,0 +1,10 @@
+@charset "utf-8";
+
+@font-face {
+  font-family: "Dokdo", cursive;
+  src: url(./font/Dokdo/AnyConv.com__Dokdo-Regular.eot) format(woff);
+}
+
+* {
+  font-family: "Dokdo";
+}

@@ -46,10 +46,7 @@ export default function Home() {
 
 const Container = styled.section`
   text-align: center;
-
-  /* padding-top: 50px; */
   color: black;
-  font-family: "JejuDoldam";
   display: flex;
   flex-direction: column;
   height: 100vh;
@@ -87,7 +84,7 @@ const Container = styled.section`
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 50px;
+    font-size: 100px;
   }
 
   .logo {
