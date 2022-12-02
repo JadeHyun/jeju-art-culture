@@ -5,6 +5,18 @@
   src: url(./font/Dokdo/AnyConv.com__Dokdo-Regular.eot) format(woff);
 }
 
+@font-face {
+  font-family: "hallasan", cursive;
+  src: url(./font/Dokdo/AnyConv.com__20957750_JejuHallasan_OTF.eot) format(woff);
+}
+
+@import url(//fonts.googleapis.com/earlyaccess/jejuhallasan.css);
+@import url(//fonts.googleapis.com/earlyaccess/jejugothic.css);
+
 * {
-  font-family: "Dokdo";
+  font-family: "Jeju Gothic", sans-serif;
+}
+
+.headerWrapper {
+  font-family: "Jeju Hallasan", cursive;
 }
