@@ -79,7 +79,6 @@ const Container = styled.section`
   }
 
   .headerWrapper {
-    /* flex-direction: column; */
     font-family: "Jeju Hallasan", cursive;
     width: 100%;
     text-align: center;

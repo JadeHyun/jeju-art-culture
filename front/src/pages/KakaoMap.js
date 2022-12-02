@@ -126,7 +126,6 @@ const KakaoMap = () => {
 
   return (
     <Wrapper className="KakaoMap">
-      <i class="fa-regular fa-house"></i>
       <MapContainer id="map"></MapContainer>
       {isModal ? <Modal setIsModal={setIsModal} /> : null}
     </Wrapper>

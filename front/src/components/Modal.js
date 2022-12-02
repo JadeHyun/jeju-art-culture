@@ -84,7 +84,6 @@ const Container = styled.div`
   }
 
   .wrapper {
-    /* border: 1px solid black; */
     display: flex;
     align-items: end;
     margin-bottom: 20px;
