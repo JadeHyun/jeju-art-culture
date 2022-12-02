@@ -1,7 +1,6 @@
 import React from "react";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
-// import ellipses from "../assets/ellipsis-solid.svg";
 import logoBlack from "../assets/logoBlack.png";
 import "../font.css";
 
@@ -39,7 +38,8 @@ const Container = styled.div`
     height: 75px;
 
     display: flex;
-    background-color: #b9d5e9;
+
+    background-color: #009aff;
   }
 
   nav > div {
@@ -47,6 +47,8 @@ const Container = styled.div`
     width: 100%;
     display: flex;
     align-items: center;
+
+    color: white;
   }
 
   .navImg {

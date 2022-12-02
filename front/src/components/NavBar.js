@@ -61,7 +61,7 @@ const Container = styled.div`
     height: 90px;
 
     display: flex;
-    background-color: #b9d5e9;
+    background-color: #009aff;
   }
 
   nav > div {
