@@ -5,7 +5,7 @@ import "./font.css";
 
 function App() {
   return (
-    <div className="App" style={{ fontFamily: "Dokdo" }}>
+    <div className="App">
       <Routers />
       <NavBar></NavBar>
     </div>

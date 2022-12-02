@@ -8,6 +8,7 @@ import culture from "../assets/문화예술.png";
 import tourism from "../assets/관광.png";
 
 import logo from "../assets/logo.png";
+import "../font.css";
 
 export default function Home() {
   return (
@@ -79,12 +80,13 @@ const Container = styled.section`
 
   .headerWrapper {
     /* flex-direction: column; */
+    font-family: "Jeju Hallasan", cursive;
     width: 100%;
     text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 100px;
+    font-size: 80px;
   }
 
   .logo {
