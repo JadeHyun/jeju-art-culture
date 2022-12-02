@@ -5,8 +5,8 @@ export default function Home() {
   return (
     <div>
       <Link to="/map">문화 & 예술</Link>
-      <Link to="/">기타 등등</Link>
-      <Link to="/">기타 등등</Link>
+      <button>기타 등등</button>
+      <button>기타 등등</button>
     </div>
   );
 }
