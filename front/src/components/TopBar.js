@@ -11,7 +11,7 @@ export default function Modal({ isModal, setIsModal, state }) {
         <div>
           <Link to="/" className="layout">
             <div className="qrDiv">
-              <img className="navImg" src={logoBlack} alt="더미 이미지" />
+              {/* <img className="navImg" src={logoBlack} alt="더미 이미지" /> */}
             </div>
           </Link>
           <div className="logoName">{state ? "이디저디" : "인증이력"}</div>
