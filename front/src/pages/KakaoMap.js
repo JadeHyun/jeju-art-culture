@@ -127,7 +127,7 @@ const KakaoMap = () => {
 
   return (
     <Wrapper className="KakaoMap">
-      <TopBar state={true}></TopBar>
+      <TopBar state={true} desc="이디저디"></TopBar>
       <MapContainer id="map"></MapContainer>
       <img src={mapChamp} alt="제주도 캐릭터" className="champ" />
 

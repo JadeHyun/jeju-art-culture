@@ -29,7 +29,7 @@ export default function Camera() {
 
   return (
     <Container>
-      <TopBar />
+      <TopBar desc="제주안심코드" />
       <video id="video" autoPlay playsInline ref={videoElement}></video>
       <img src={mapChamp} alt="제주도 캐릭터" className="champ" />
       <NavBar />

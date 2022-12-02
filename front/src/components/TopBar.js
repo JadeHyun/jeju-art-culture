@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import logoBlack from "../assets/logoBlack.png";
 import "../font.css";
 
-export default function Modal({ isModal, setIsModal, state }) {
+export default function Modal({ isModal, setIsModal, state, desc }) {
   return (
     <Container>
       <nav>
@@ -14,7 +14,7 @@ export default function Modal({ isModal, setIsModal, state }) {
               {/* <img className="navImg" src={logoBlack} alt="더미 이미지" /> */}
             </div>
           </Link>
-          <div className="logoName">{state ? "이디저디" : "인증이력"}</div>
+          <div className="logoName">{desc}</div>
         </div>
       </nav>
     </Container>

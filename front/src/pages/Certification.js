@@ -54,7 +54,7 @@ export default function Certification() {
   ];
   return (
     <Container>
-      <TopBar state={false} />
+      <TopBar state={false} desc="인증이력" />
       <div className="wrapper">
         {imgBox.map((el, idx) => {
           return (
