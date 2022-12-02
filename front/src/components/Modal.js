@@ -6,7 +6,9 @@ import musaImg from "../assets/musa.png";
 export default function Modal() {
   return (
     <Container>
-      <img className="musaImg" src={musaImg} alt="musa 책방 이미지" />
+      <div className="musaImg">
+        <img src={musaImg} alt="musa 책방 이미지" />
+      </div>
       <div>
         <p>주소 : 제주 서귀포시 성산읍 수시로10번길 3</p>
         <p>
@@ -44,11 +46,10 @@ const Container = styled.div`
   justify-content: space-between;
 
   width: 100%;
-  /* height: 35vh; */
   padding: 10px;
 
   position: absolute;
-  top: 60%;
+  top: 45%;
   left: 0;
 
   a {
@@ -63,9 +64,16 @@ const Container = styled.div`
     margin: 10px 0px;
     line-height: 120%;
   }
+  img {
+    width: 40%;
+  }
 
   .musaImg {
     margin-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
   }
 
   .wrapper {
