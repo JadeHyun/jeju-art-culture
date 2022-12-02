@@ -30,14 +30,14 @@ const Container = styled.section`
 
   .imgCard {
     flex-basis: 20%;
-    width: 110px;
+    width: 150px;
     border-radius: 15px;
-    height: 110px;
+    height: 150px;
   }
 
   .optical {
     opacity: 0.2;
-    width: 110px;
-    height: 110px;
+    width: 150px;
+    height: 150px;
   }
 `;

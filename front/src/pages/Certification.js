@@ -77,6 +77,7 @@ const Container = styled.section`
   align-items: center;
   justify-content: space-around;
   width: 100%;
+  margin-bottom: 120px;
   .wrapper {
     text-align: center;
   }
