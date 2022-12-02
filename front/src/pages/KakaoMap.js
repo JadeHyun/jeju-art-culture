@@ -143,7 +143,6 @@ const Wrapper = styled.section`
   justify-content: space-around;
   flex-direction: column;
   align-items: center;
-  /* z-index: 99; */
 
   .champ {
     margin-top: 220px;

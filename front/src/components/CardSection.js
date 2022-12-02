@@ -2,7 +2,6 @@ import React from "react";
 import styled from "styled-components";
 
 export default function CardSection({ name, state }) {
-  console.log(name);
   return (
     <Wrapper>
       <div className="secWrapper">

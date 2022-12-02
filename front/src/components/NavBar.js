@@ -12,11 +12,13 @@ export default function Modal({ isModal, setIsModal }) {
     <Container>
       <nav>
         <div>
-          <div className="qrDiv">
-            <img className="navImg" src={qrCode} alt="더미 이미지" />
-            <br />
-            QR
-          </div>
+          <Link to="/camera">
+            <div className="qrDiv">
+              <img className="navImg" src={qrCode} alt="더미 이미지" />
+              <br />
+              QR
+            </div>
+          </Link>
         </div>
         <div>
           <Link to="/" className="layout">
