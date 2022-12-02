@@ -1,7 +1,6 @@
 import React from "react";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
-import ellipses from "../assets/ellipsis-solid.svg";
 import logoBlack from "../assets/logoBlack.png";
 
 export default function Modal({ isModal, setIsModal }) {
@@ -36,7 +35,9 @@ const Container = styled.div`
     height: 75px;
 
     display: flex;
-    background-color: #b9d5e9;
+
+    background-color: #009AFF;
+
   }
 
   nav > div {
@@ -45,6 +46,9 @@ const Container = styled.div`
     display: flex;
     // justify-content: flex-start;
     align-items: center;
+
+    color: white;
+
   }
 
   .navImg {
@@ -61,7 +65,7 @@ const Container = styled.div`
     text-align: center;
     line-height: 1.5;
   }
-  
+
   .logoName {
     margin: 10px;
     font-size: 46px;
