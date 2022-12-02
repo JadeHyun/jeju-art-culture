@@ -35,7 +35,9 @@ const Container = styled.div`
     height: 75px;
 
     display: flex;
+
     background-color: #009AFF;
+
   }
 
   nav > div {
@@ -44,7 +46,9 @@ const Container = styled.div`
     display: flex;
     // justify-content: flex-start;
     align-items: center;
+
     color: white;
+
   }
 
   .navImg {

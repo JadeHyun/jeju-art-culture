@@ -7,10 +7,12 @@ import "../font.css";
 export default function Modal({ isModal, setIsModal }) {
   return (
     <Container>
+
       <div className="title">
         <div>책방무사</div>
         <img src={modalLogo} alt="modalLogo" />
       </div>
+
       <div>
         <p>2023년 2월 25일 토요일 저녁 19시</p>
         <pre>
@@ -40,7 +42,6 @@ export default function Modal({ isModal, setIsModal }) {
 }
 
 const Container = styled.div`
-  border: 1px solid black;
   border-radius: 20px;
   box-sizing: border-box;
   display: flex;
@@ -53,7 +54,9 @@ const Container = styled.div`
   padding: 0px 0px 15px;
 
   position: absolute;
+
   top: 505px;
+
 
   a {
     text-decoration: none;
@@ -89,6 +92,8 @@ const Container = styled.div`
     // align-items: end;
     justify-content: flex-end;
     // flex-direction: row;
+
+
   }
 
   button {
