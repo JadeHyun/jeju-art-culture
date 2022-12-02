@@ -64,6 +64,8 @@ const Container = styled.div`
   p {
     margin: 15px 15px 0 15px;
     font-size: 22px;
+    font-weight: bold;
+    color: #ff5500;
   }
 
   pre {
@@ -77,7 +79,7 @@ const Container = styled.div`
     font-weight: bold;
     margin-top: 5px;
     padding: 0px 0px 5px 0px;
-    color: orange;
+    color: #ff6a00;
   }
 
   img {
