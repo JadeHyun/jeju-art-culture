@@ -86,7 +86,7 @@ const Container = styled.section`
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 100px;
+    font-size: 80px;
   }
 
   .logo {
