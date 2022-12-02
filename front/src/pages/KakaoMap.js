@@ -7,7 +7,6 @@ import Modal from "../components/Modal";
 // const { kakao } = window;
 
 const KakaoMap = () => {
-
   // 마커 클릭했을 때 나올 모달 상태
   const [isModal, setIsModal] = useState(false);
 
@@ -121,17 +120,16 @@ const KakaoMap = () => {
 
         // // 클릭된 마커를 현재 클릭된 마커 객체로 설정합니다
         // selectedMarker = hotMarkerImage;
-
       });
     }
   }, []);
 
   return (
     <Wrapper className="KakaoMap">
+      <i class="fa-regular fa-house"></i>
       <MapContainer id="map"></MapContainer>
-      {isModal ? <Modal /> : null}
+      {isModal ? <Modal setIsModal={setIsModal} /> : null}
     </Wrapper>
-
   );
 };
 
@@ -146,4 +144,5 @@ let MapContainer = styled.div`
   border-radius: 20px;
   width: 400px;
   height: 400px;
+  margin: 0 10px;
 `;
