@@ -6,31 +6,36 @@ import life from "../assets/생활서비스.png";
 import medical from "../assets/의료복지.png";
 import culture from "../assets/문화예술.png";
 import tourism from "../assets/관광.png";
+import logo from "../assets/logo.png";
 
 export default function Home() {
   return (
     <Container>
       <div className="header">
-        <p>이디저디</p>
+        <div className="headerWrapper">
+          이디
+          <img src={logo} alt="logo" className="logo" />
+          저디
+        </div>
       </div>
       <div className="wrapper">
         <div className="layout">
           <img src={life} alt="life icon" />
-          생활 서비스
+          <button className="btn">생활 서비스</button>
         </div>
         <Link to="/map" className="layout">
           <img src={culture} alt="culture icon" className="cultureImg" />
-          문화예술
+          <button className="btn">문화예술</button>
         </Link>
       </div>
       <div className="wrapper">
         <div className="layout">
           <img src={medical} alt="medical icon" />
-          의료 복지
+          <button className="btn">의료 복지</button>
         </div>
         <div className="layout">
           <img src={tourism} alt="tourism icon" />
-          관광
+          <button className="btn">관광</button>
         </div>
       </div>
     </Container>
@@ -52,15 +57,44 @@ const Container = styled.section`
     border: none;
   }
 
+  .btn {
+    border: none;
+    background-color: #f49d11;
+    border-radius: 25px;
+    padding: 10px;
+    width: 150px;
+  }
+
+  .btn:hover {
+    background-color: #5acaff;
+  }
+
   .header {
-    border: 1px solid black;
-    /* margin-bottom: 50px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
     flex-basis: 30%;
+  }
+
+  .headerWrapper {
+    /* flex-direction: column; */
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+  }
+
+  .logo {
+    width: 50px;
   }
 
   a {
     text-decoration: none;
   }
+
   .wrapper {
     display: flex;
     flex-direction: row;

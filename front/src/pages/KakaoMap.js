@@ -3,6 +3,7 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 import Modal from "../components/Modal";
+import mapChamp from "../assets/map캐릭터.png";
 
 // const { kakao } = window;
 
@@ -126,8 +127,10 @@ const KakaoMap = () => {
 
   return (
     <Wrapper className="KakaoMap">
-      <i className="fa-regular fa-house"></i>
+      {/* <i className="fa-regular fa-house"></i> */}
       <MapContainer id="map"></MapContainer>
+      <img src={mapChamp} alt="제주도 캐릭터" className="champ" />
+
       {isModal ? <Modal setIsModal={setIsModal} /> : null}
     </Wrapper>
   );
@@ -138,6 +141,14 @@ export default KakaoMap;
 const Wrapper = styled.section`
   display: flex;
   justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  /* z-index: 99; */
+
+  .champ {
+    margin-top: 20px;
+    width: 50%;
+  }
 `;
 
 let MapContainer = styled.div`
