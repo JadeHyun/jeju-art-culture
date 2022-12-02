@@ -1,5 +1,5 @@
 /* global kakao */
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 import Modal from "../components/Modal";
@@ -7,6 +7,7 @@ import Modal from "../components/Modal";
 // const { kakao } = window;
 
 const KakaoMap = () => {
+  const [a, setA] = useState(false);
   useEffect(() => {
     ////////// 카카오맵 생성 ////////////////
     var mapContainer = document.getElementById("map"), // 지도를 표시할 div
@@ -93,23 +94,28 @@ const KakaoMap = () => {
 
       kakao.maps.event.addListener(marker, "click", function click() {
         console.log("click");
+        setA(!a);
       });
     }
   }, []);
 
   return (
-    <div className="KakaoMap">
+    <Wrapper className="KakaoMap">
       <MapContainer id="map"></MapContainer>
-      <Modal />
-    </div>
+      {a ? <Modal a={a} setA={setA} /> : null}
+    </Wrapper>
   );
 };
 
 export default KakaoMap;
 
+const Wrapper = styled.section`
+  display: flex;
+  justify-content: space-around;
+`;
+
 let MapContainer = styled.div`
   border-radius: 20px;
-  width: 500px;
+  width: 400px;
   height: 400px;
-  margin: 0 20px;
 `;
