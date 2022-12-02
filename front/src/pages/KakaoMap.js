@@ -126,8 +126,9 @@ const KakaoMap = () => {
 
   return (
     <Wrapper className="KakaoMap">
+      <i class="fa-regular fa-house"></i>
       <MapContainer id="map"></MapContainer>
-      {isModal ? <Modal /> : null}
+      {isModal ? <Modal setIsModal={setIsModal} /> : null}
     </Wrapper>
   );
 };
@@ -143,4 +144,5 @@ let MapContainer = styled.div`
   border-radius: 20px;
   width: 400px;
   height: 400px;
+  margin: 0 10px;
 `;

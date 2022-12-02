@@ -2,10 +2,10 @@ import React from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 
-import life from "../assets/lifeService.svg";
-import medical from "../assets/Medical.svg";
-import culture from "../assets/culture.svg";
-import tourism from "../assets/tourism.svg";
+import life from "../assets/생활서비스.png";
+import medical from "../assets/의료복지.png";
+import culture from "../assets/문화예술.png";
+import tourism from "../assets/관광.png";
 
 export default function Home() {
   return (
@@ -20,7 +20,7 @@ export default function Home() {
         </div>
         <Link to="/map" className="layout">
           <img src={culture} alt="culture icon" className="cultureImg" />
-          문화 예술
+          문화예술
         </Link>
       </div>
       <div className="wrapper">
@@ -39,11 +39,12 @@ export default function Home() {
 
 const Container = styled.section`
   text-align: center;
-  /* border: 1px solid red; */
   padding-top: 50px;
   color: black;
+  font: "doldam";
+
   img {
-    width: 40%;
+    width: 60%;
     height: 150px;
     border: none;
   }
@@ -71,5 +72,22 @@ const Container = styled.section`
     width: 50%;
     /* border: 1px solid black; */
     align-items: center;
+  }
+`;
+
+let Button = styled.button`
+  font-size: 20px;
+  font-weight: 800;
+  border-radius: 24px;
+  width: 300px;
+  height: 70px;
+  border: none;
+  border-radius: 20px;
+  margin-bottom: 15px;
+  background: white;
+  color: var(--darkgray);
+  &:hover {
+    cursor: pointer;
+    background: var(--orange);
   }
 `;
