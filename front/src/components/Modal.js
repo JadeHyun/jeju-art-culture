@@ -5,10 +5,7 @@ import { Link } from "react-router-dom";
 export default function Modal({ isModal, setIsModal }) {
   return (
     <Container>
-      <div>
-        책방무사
-        <button onClick={(isModal) => setIsModal(!isModal)}>X</button>
-      </div>
+      <div>책방무사</div>
       <div>
         <p>
           제주 동쪽 성산 일출봉 근처 수산리라고 하는 작은 마을에 있는
@@ -44,7 +41,6 @@ export default function Modal({ isModal, setIsModal }) {
 }
 
 const Container = styled.div`
-  border: 1px solid black;
   border-radius: 20px;
   box-sizing: border-box;
   display: flex;
@@ -56,7 +52,7 @@ const Container = styled.div`
   padding: 10px;
 
   position: absolute;
-  top: 45%;
+  top: 485px;
   left: 0;
 
   a {
@@ -75,19 +71,10 @@ const Container = styled.div`
     width: 40%;
   }
 
-  .musaImg {
-    margin-bottom: 20px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    text-align: center;
-  }
-
   .wrapper {
     /* border: 1px solid black; */
     display: flex;
     align-items: end;
-    margin-bottom: 20px;
   }
 
   button {
