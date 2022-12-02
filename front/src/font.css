@@ -13,6 +13,14 @@
 @import url(//fonts.googleapis.com/earlyaccess/jejuhallasan.css);
 @import url(//fonts.googleapis.com/earlyaccess/jejugothic.css);
 
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+}
+
 * {
   font-family: "Jeju Gothic", sans-serif;
 }

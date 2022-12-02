@@ -3,6 +3,8 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 import Modal from "../components/Modal";
+import mapChamp from "../assets/map캐릭터.png";
+import TopBar from "../components/TopBar";
 
 // const { kakao } = window;
 
@@ -122,11 +124,14 @@ const KakaoMap = () => {
         // selectedMarker = hotMarkerImage;
       });
     }
-  }, []);
+  }, [isModal, setIsModal]);
 
   return (
     <Wrapper className="KakaoMap">
+      <TopBar state={true}></TopBar>
       <MapContainer id="map"></MapContainer>
+      <img src={mapChamp} alt="제주도 캐릭터" className="champ" />
+
       {isModal ? <Modal setIsModal={setIsModal} /> : null}
     </Wrapper>
   );
@@ -137,11 +142,18 @@ export default KakaoMap;
 const Wrapper = styled.section`
   display: flex;
   justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  /* z-index: 99; */
+
+  .champ {
+    margin-top: 220px;
+    width: 58%;
+  }
 `;
 
 let MapContainer = styled.div`
   border-radius: 20px;
   width: 400px;
   height: 400px;
-  margin: 0 10px;
 `;

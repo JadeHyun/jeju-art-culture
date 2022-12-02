@@ -5,6 +5,7 @@ import { useState } from "react";
 import Home from "./Home";
 import KakaoMap from "./KakaoMap";
 import Desc from "./Desc";
+import Certification from "./Certification";
 
 export default function Routers() {
   const [modal, setModal] = useState(false);
@@ -14,7 +15,7 @@ export default function Routers() {
       <Route path="/" element={<Home />} />
       <Route path="/map" element={<KakaoMap setModal={setModal} />} />
       <Route path="/desc" element={<Desc />} />
-      <Route path="qrcheck" />
+      <Route path="/certification" element={<Certification />} />
     </Routes>
   );
 }

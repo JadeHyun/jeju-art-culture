@@ -64,6 +64,7 @@ const Container = styled.section`
     border-radius: 25px;
     padding: 10px;
     width: 150px;
+    font-size: 1.2em;
   }
 
   .btn:hover {

@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
+
 import qrCode from "../assets/qrcode-solid.svg";
 import ellipses from "../assets/ellipsis-solid.svg";
 import file from "../assets/file-lines-regular.svg";
@@ -12,7 +13,7 @@ export default function Modal({ isModal, setIsModal }) {
       <nav>
         <div>
           <div className="qrDiv">
-            <img className="navImg" src={qrCode} />
+            <img className="navImg" src={qrCode} alt="더미 이미지" />
             <br />
             QR
           </div>
@@ -20,7 +21,7 @@ export default function Modal({ isModal, setIsModal }) {
         <div>
           <Link to="/" className="layout">
             <div className="qrDiv">
-              <img className="navImg" src={logoBlack} />
+              <img className="navImg" src={logoBlack} alt="더미 이미지" />
               <br />
               이디저디
             </div>
@@ -28,14 +29,16 @@ export default function Modal({ isModal, setIsModal }) {
         </div>
         <div>
           <div className="qrDiv">
-            <img className="navImg" src={file} />
-            <br />
-            인증이력
+            <Link to="/certification">
+              <img className="navImg" src={file} alt="더미 이미지" />
+              <br />
+              인증이력
+            </Link>
           </div>
         </div>
         <div>
           <div className="qrDiv">
-            <img className="navImg" src={ellipses} />
+            <img className="navImg" src={ellipses} alt="더미 이미지" />
             <br />
             더보기
           </div>
