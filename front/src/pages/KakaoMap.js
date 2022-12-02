@@ -125,18 +125,22 @@ const KakaoMap = () => {
   }, []);
 
   return (
-    <div className="KakaoMap">
+    <Wrapper className="KakaoMap">
       <MapContainer id="map"></MapContainer>
       {isModal ? <Modal /> : null}
-    </div>
+    </Wrapper>
   );
 };
 
 export default KakaoMap;
 
+const Wrapper = styled.section`
+  display: flex;
+  justify-content: space-around;
+`;
+
 let MapContainer = styled.div`
   border-radius: 20px;
-  width: 500px;
+  width: 400px;
   height: 400px;
-  margin: 0 20px;
 `;

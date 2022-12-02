@@ -3,11 +3,12 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 import musaImg from "../assets/musa.png";
 
-export default function Modal() {
+export default function Modal({ a, setA }) {
   return (
     <Container>
       <div className="musaImg">
         <img src={musaImg} alt="musa 책방 이미지" />
+        <button onClick={() => setA(!a)}>X</button>
       </div>
       <div>
         <p>주소 : 제주 서귀포시 성산읍 수시로10번길 3</p>
