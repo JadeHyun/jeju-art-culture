@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-GIF Images
+![시현영상](https://user-images.githubusercontent.com/89769615/205417607-77a03db0-b827-4f23-8688-c370b89e11ce.GIF)
 </p>
 
 <br>
@@ -26,9 +26,9 @@ GIF Images
 
 ### 기능 1
 
-<p></p>
+<p>kakao 지도 api</p>
 ### 기능 2
-<p></p>
+<p>모달..... 비디오 ...... </p>
 ### 기능 3
 
 ### 기능 4
