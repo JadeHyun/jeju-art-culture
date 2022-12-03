@@ -1,70 +1,91 @@
-# Getting Started with Create React App
+# 공간 연계 플랫폼, 이디저디
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+<img src="src/assets/READMEimg/projectLogo.png">
+</p>
 
-## Available Scripts
+관광 빅데이터 구축 등 지속 가능한 관광 실현 : 문화예술
 
-In the project directory, you can run:
+## 프로젝트 소개
 
-### `npm start`
+<p align="justify">
+프로젝트 개요/동기
+</p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<p align="center">
+GIF Images
+</p>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<br>
 
-### `npm test`
+## 기술 스택
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+| JavaScript | TypeScript |  React   |  Node   |
+| :--------: | :--------: | :------: | :-----: |
+|   ![js]    |   ![ts]    | ![react] | ![node] |
 
-### `npm run build`
+<br>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 구현 기능
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 기능 1
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 기능 2
 
-### `npm run eject`
+### 기능 3
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 기능 4
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<br>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 배운 점 & 아쉬운 점
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<p align="justify">
 
-## Learn More
+</p>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<br>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 라이센스
 
-### Code Splitting
+MIT &copy; [NoHack](mailto:lbjp114@gmail.com)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<!-- Stack Icon Refernces -->
 
-### Analyzing the Bundle Size
+[js]: /images/stack/javascript.svg
+[ts]: /images/stack/typescript.svg
+[react]: /images/stack/react.svg
+[node]: /images/stack/node.svg
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+# 프로젝트명
 
-### Making a Progressive Web App
+간략한 프로젝트 소개 문구를 작성합니다.
+[![NPM Version][npm-image]][npm-url]
+[![Downloads Stats][npm-downloads]][npm-url]
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+한 두 문단으로 프로젝트 소개 글을 작성합니다.
 
-### Advanced Configuration
+![](../header.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 설치 방법
 
-### Deployment
+OS X & 리눅스:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+npm install my-crazy-module --save
 
-### `npm run build` fails to minify
+윈도우:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+edit autoexec.bat
+
+## 사용 예제
+
+스크린 샷과 코드 예제를 통해 사용 방법을 자세히 설명합니다.
+
+더 많은 예제와 사용법은 [Wiki][wiki]를 참고하세요.
+
+## 개발 환경 설정
+
+모든 개발 의존성 설치 방법과 자동 테스트 슈트 실행 방법을 운영체제 별로 작성합니다.
+
+make install
+npm test

@@ -33,7 +33,7 @@ export default function Modal({ isModal, setIsModal }) {
         5. 스피닝울프 펍<br />
       </pre>
       <div className="wrapper">
-        방문 확인을 위해 해당 지점에서&nbsp;<Link to="qrcheck">QR</Link>을 꼭
+        방문 확인을 위해 해당 지점에서&nbsp;<Link to="/camera">QR</Link>을 꼭
         찍어주세요!
       </div>
     </Container>
