@@ -1,10 +1,6 @@
 # 공간 연계 플랫폼, 이디저디
 
-<p align="center">
-<img src="src/assets/READMEimg/projectLogo.png">
-</p>
-
-관광 빅데이터 구축 등 지속 가능한 관광 실현 : 문화예술
+![image](https://user-images.githubusercontent.com/96432772/205416680-555006dc-e3eb-4331-9e15-9360accb4d2c.png)
 
 ## 프로젝트 소개
 
@@ -20,9 +16,9 @@ GIF Images
 
 ## 기술 스택
 
-| JavaScript | TypeScript |  React   |  Node   |
-| :--------: | :--------: | :------: | :-----: |
-|   ![js]    |   ![ts]    | ![react] | ![node] |
+| ![image](https://user-images.githubusercontent.com/96432772/205416070-33c7386e-5bcd-4988-a8c3-a4ad8d9d8393.png) | ![image](https://user-images.githubusercontent.com/96432772/205416168-f38d3522-d11a-4011-ae58-52018c076b68.png) | ![image](https://user-images.githubusercontent.com/96432772/205416205-2e4c2031-0342-4032-9995-f0a787fd05ba.png) |
+| :-------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------: |
+|                                                    ![react]                                                     |                                              ![styled-components]                                               |                                               ![react-router-dom]                                               |
 
 <br>
 
@@ -30,8 +26,9 @@ GIF Images
 
 ### 기능 1
 
+<p></p>
 ### 기능 2
-
+<p></p>
 ### 기능 3
 
 ### 기능 4
